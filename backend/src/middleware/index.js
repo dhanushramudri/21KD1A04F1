@@ -1,5 +1,5 @@
 const middleware = (req, res, next) => {
-  // get access token
+  
   const axios = require("axios");
   const url = "http://20.244.56.144/test/auth";
   const data = {
