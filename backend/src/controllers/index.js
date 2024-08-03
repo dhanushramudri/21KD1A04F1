@@ -10,7 +10,7 @@ const axios = require("axios");
 router.post("/get_products", middleware, async (req, res) => {
   const { companyName, category, minPrice, maxPrice, n } = req.body;
 
-  // Validate request data
+  
   if (
     !companyName ||
     !category ||
